@@ -27,11 +27,17 @@ body {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
     align-items: center;
-    background-color: var(--bg-colour);
     padding: 0.4rem;
 
     
 }
 .icon {
+      background-color: var(--bg-colour);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
     
 }
